@@ -1,0 +1,4 @@
+url=wss://mario64-coop.mayacodegt.workers.dev
+room=publica
+name=Jugador
+char=0

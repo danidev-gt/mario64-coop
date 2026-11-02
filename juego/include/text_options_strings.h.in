@@ -1,0 +1,181 @@
+#ifndef TEXT_OPTIONS_STRINGS_H
+#define TEXT_OPTIONS_STRINGS_H
+
+/* Extended options menu text */
+
+// Menu title strings
+
+#define TEXT_OPT_OPTIONS   _("OPCIONES")
+#define TEXT_OPT_CAMERA    _("CAMARA")
+#define TEXT_OPT_CONTROLS  _("CONTROLES")
+#define TEXT_OPT_VIDEO     _("PANTALLA")
+#define TEXT_OPT_AUDIO     _("SONIDO")
+#define TEXT_OPT_CHEATS    _("TRUCOS")
+#define TEXT_OPT_POINTS    _("PUNTOS DE CONTROL")
+#define TEXT_OPT_PLAYER    _("JUGADOR")
+#define TEXT_OPT_MULTI     _("MULTIJUGADOR")
+
+// Markers
+
+#define TEXT_OPT_L_HIGHLIGHT _(">")
+#define TEXT_OPT_R_HIGHLIGHT _("<")
+#define TEXT_OPT_UNBOUND   _("NINGUNA")
+
+// Language specific strings
+
+#if defined(VERSION_JP) || defined(VERSION_SH)
+
+// TODO: Actually translate this to JP
+
+// No . in JP
+
+#define TEXT_OPT_PRESSKEY  _("・・・")
+
+// Option strings
+
+#define TEXT_OPT_BUTTON1   _("Ｒ OPTIONS")
+#define TEXT_OPT_BUTTON2   _("Ｒ RETURN")
+#define TEXT_OPT_ENABLED   _("ENABLED")
+#define TEXT_OPT_DISABLED  _("DISABLED")
+#define TEXT_OPT_CAMX      _("CAMERA X SENSITIVITY")
+#define TEXT_OPT_CAMY      _("CAMERA Y SENSITIVITY")
+#define TEXT_OPT_INVERTX   _("INVERT X AXIS")
+#define TEXT_OPT_INVERTY   _("INVERT Y AXIS")
+#define TEXT_OPT_CAMC      _("CAMERA CENTRE AGGRESSION")
+#define TEXT_OPT_CAMP      _("CAMERA PAN LEVEL")
+#define TEXT_OPT_CAMD      _("CAMERA DECELERATION")
+#define TEXT_OPT_CAMON     _("FREE CAMERA")
+#define TEXT_OPT_ANALOGUE  _("ANALOGUE CAMERA")
+#define TEXT_OPT_MOUSE     _("MOUSE LOOK")
+#define TEXT_OPT_TEXFILTER _("TEXTURE FILTERING")
+#define TEXT_OPT_FSCREEN   _("FULLSCREEN")
+#define TEXT_OPT_NEAREST   _("NEAREST")
+#define TEXT_OPT_LINEAR    _("LINEAR")
+#define TEXT_OPT_MVOLUME   _("MASTER VOLUME")
+#define TEXT_OPT_MUSVOLUME _("MUSIC VOLUME")
+#define TEXT_OPT_SFXVOLUME _("SFX VOLUME")
+#define TEXT_OPT_ENVVOLUME _("ENV VOLUME")
+#define TEXT_OPT_VSYNC     _("VERTICAL SYNC")
+#define TEXT_OPT_AUTO      _("AUTO")
+#define TEXT_OPT_HUD       _("HUD")
+#define TEXT_OPT_THREEPT   _("THREE POINT")
+#define TEXT_OPT_BICUBIC   _("BICUBIC")
+#define TEXT_OPT_APPLY     _("APPLY")
+#define TEXT_OPT_RESETWND  _("RESET WINDOW")
+
+#define TEXT_BIND_A        _("A BUTTON")
+#define TEXT_BIND_B        _("B BUTTON")
+#define TEXT_BIND_START    _("START BUTTON")
+#define TEXT_BIND_L        _("L TRIGGER")
+#define TEXT_BIND_R        _("R TRIGGER")
+#define TEXT_BIND_Z        _("Z TRIGGER")
+#define TEXT_BIND_C_UP     _("C-UP")
+#define TEXT_BIND_C_DOWN   _("C-DOWN")
+#define TEXT_BIND_C_LEFT   _("C-LEFT")
+#define TEXT_BIND_C_RIGHT  _("C-RIGHT")
+#define TEXT_BIND_UP       _("STICK UP")
+#define TEXT_BIND_DOWN     _("STICK DOWN")
+#define TEXT_BIND_LEFT     _("STICK LEFT")
+#define TEXT_BIND_RIGHT    _("STICK RIGHT")
+#define TEXT_OPT_DEADZONE  _("STICK DEADZONE")
+#define TEXT_OPT_RUMBLE    _("RUMBLE STRENGTH")
+
+#define TEXT_OPT_CHEAT1    _("ENABLE CHEATS")
+#define TEXT_OPT_CHEAT2    _("MOONJUMP (PRESS L)")
+#define TEXT_OPT_CHEAT3    _("INVINCIBLE MARIO")
+#define TEXT_OPT_CHEAT4    _("INFINITE LIVES")
+#define TEXT_OPT_CHEAT5    _("SUPER SPEED")
+#define TEXT_OPT_CHEAT6    _("SUPER RESPONSIVE CONTROLS")
+#define TEXT_OPT_CHEAT7    _("EXIT COURSE AT ANY TIME")
+#define TEXT_OPT_CHEAT8    _("HUGE MARIO")
+#define TEXT_OPT_CHEAT9    _("TINY MARIO")
+
+#else // VERSION
+
+// Markers
+
+#define TEXT_OPT_PRESSKEY  _("...")
+
+// Option strings
+
+#define TEXT_OPT_BUTTON1   _("[R] Opciones")
+#define TEXT_OPT_BUTTON2   _("[R] Volver")
+#define TEXT_OPT_ENABLED   _("Activado")
+#define TEXT_OPT_DISABLED  _("Desactivado")
+#define TEXT_OPT_CAMX      _("Sensibilidad camara X")
+#define TEXT_OPT_CAMY      _("Sensibilidad camara Y")
+#define TEXT_OPT_INVERTX   _("Invertir eje X")
+#define TEXT_OPT_INVERTY   _("Invertir eje Y")
+#define TEXT_OPT_CAMC      _("Centrado de camara")
+#define TEXT_OPT_CAMP      _("Desplazamiento camara")
+#define TEXT_OPT_CAMD      _("Frenado de camara")
+#define TEXT_OPT_CAMON     _("Camara libre")
+#define TEXT_OPT_ANALOGUE  _("Camara analogica")
+#define TEXT_OPT_MOUSE     _("Mirar con raton")
+#define TEXT_OPT_TEXFILTER _("Filtro de texturas")
+#define TEXT_OPT_FSCREEN   _("Pantalla completa")
+#define TEXT_OPT_NEAREST   _("Cercano")
+#define TEXT_OPT_LINEAR    _("Lineal")
+#define TEXT_OPT_MVOLUME   _("Volumen general")
+#define TEXT_OPT_MUSVOLUME _("Volumen musica")
+#define TEXT_OPT_SFXVOLUME _("Volumen efectos")
+#define TEXT_OPT_ENVVOLUME _("Volumen ambiente")
+#define TEXT_OPT_VSYNC     _("Sincronia vertical")
+#define TEXT_OPT_AUTO      _("Auto")
+#define TEXT_OPT_HUD       _("HUD")
+#define TEXT_OPT_THREEPT   _("Tres puntos")
+#define TEXT_OPT_BICUBIC   _("Bicubico")
+#define TEXT_OPT_APPLY     _("Aplicar")
+#define TEXT_OPT_RESETWND  _("Restaurar ventana")
+
+#define TEXT_BIND_A        _("Boton A")
+#define TEXT_BIND_B        _("Boton B")
+#define TEXT_BIND_START    _("Boton Start")
+#define TEXT_BIND_L        _("Gatillo L")
+#define TEXT_BIND_R        _("Gatillo R")
+#define TEXT_BIND_Z        _("Gatillo Z")
+#define TEXT_BIND_C_UP     _("C-Arriba")
+#define TEXT_BIND_C_DOWN   _("C-Abajo")
+#define TEXT_BIND_C_LEFT   _("C-Izquierda")
+#define TEXT_BIND_C_RIGHT  _("C-Derecha")
+#define TEXT_BIND_UP       _("Palanca arriba")
+#define TEXT_BIND_DOWN     _("Palanca abajo")
+#define TEXT_BIND_LEFT     _("Palanca izquierda")
+#define TEXT_BIND_RIGHT    _("Palanca derecha")
+#define TEXT_OPT_DEADZONE  _("Zona muerta palanca")
+#define TEXT_OPT_RUMBLE    _("Fuerza de vibracion")
+
+#define TEXT_OPT_CHEAT1    _("Activar trucos")
+#define TEXT_OPT_CHEAT2    _("Salto lunar (pulsa L)")
+#define TEXT_OPT_CHEAT3    _("Mario invencible")
+#define TEXT_OPT_CHEAT4    _("Vidas infinitas")
+#define TEXT_OPT_CHEAT5    _("Super velocidad")
+#define TEXT_OPT_CHEAT6    _("Controles super agiles")
+#define TEXT_OPT_CHEAT7    _("Salir del nivel siempre")
+#define TEXT_OPT_CHEAT8    _("Mario gigante")
+#define TEXT_OPT_CHEAT9    _("Mario diminuto")
+
+// Cinta de herramientas
+#define TEXT_RIB_SAVE1     _("Guardar punto 1")
+#define TEXT_RIB_SAVE2     _("Guardar punto 2")
+#define TEXT_RIB_SAVE3     _("Guardar punto 3")
+#define TEXT_RIB_LOAD1     _("Cargar punto 1")
+#define TEXT_RIB_LOAD2     _("Cargar punto 2")
+#define TEXT_RIB_LOAD3     _("Cargar punto 3")
+#define TEXT_RIB_EMPTY1    _("Punto 1 vacio")
+#define TEXT_RIB_EMPTY2    _("Punto 2 vacio")
+#define TEXT_RIB_EMPTY3    _("Punto 3 vacio")
+#define TEXT_RIB_UNDO      _("Deshacer ultima carga")
+#define TEXT_RIB_NOUNDO    _("Nada que deshacer")
+#define TEXT_RIB_LIFE1    _("Dar 1 vida")
+#define TEXT_RIB_LIFE5     _("Dar 5 vidas")
+#define TEXT_RIB_LIFE99    _("Vidas al maximo")
+#define TEXT_RIB_HEALTH    _("Llenar salud")
+#define TEXT_RIB_COINS     _("Dar 25 monedas")
+#define TEXT_RIB_WING      _("Gorra de alas")
+#define TEXT_RIB_METAL     _("Gorra de metal")
+#define TEXT_RIB_VANISH    _("Gorra invisible")
+
+#endif // VERSION
+
+#endif // TEXT_OPTIONS_STRINGS_H

@@ -1,0 +1,7 @@
+{
+  "name": "mario64-coop",
+  "main": "src/index.js",
+  "compatibility_date": "2025-01-01",
+  "durable_objects": { "bindings": [{ "name": "ROOM", "class_name": "Room" }, { "name": "SAVES", "class_name": "SaveBox" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Room"] }, { "tag": "v2", "new_sqlite_classes": ["SaveBox"] }]
+}

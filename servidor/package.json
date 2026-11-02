@@ -1,0 +1,14 @@
+{
+  "name": "mario64-coop-servidor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "test": "node test/cliente.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.0"
+  }
+}

@@ -1,0 +1,38 @@
+fullscreen false
+window_x 4294967295
+window_y 4294967295
+window_w 1600
+window_h 900
+vsync true
+texture_filtering 3
+master_volume 127
+music_volume 127
+sfx_volume 127
+env_volume 127
+key_a 002d 1000 1103 
+key_b 002e 1002 1101 
+key_start 001c 1006 ffff 
+key_l 001e 1009 1104 
+key_r 001f 100a 101b 
+key_z 002c 1007 101a 
+key_cup 0017 ffff ffff 
+key_cdown 0025 ffff ffff 
+key_cleft 0024 ffff ffff 
+key_cright 0026 ffff ffff 
+key_stickup 0148 ffff ffff 
+key_stickdown 0150 ffff ffff 
+key_stickleft 014b ffff ffff 
+key_stickright 014d ffff ffff 
+stick_deadzone 16
+rumble_strength 50
+bettercam_enable false
+bettercam_analog true
+bettercam_mouse_look false
+bettercam_invertx true
+bettercam_inverty false
+bettercam_xsens 50
+bettercam_ysens 50
+bettercam_aggression 0
+bettercam_pan_level 0
+bettercam_degrade 10
+skip_intro false

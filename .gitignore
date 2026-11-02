@@ -1,0 +1,21 @@
+# ROM y todo lo extraido de ella: copyright de Nintendo, nunca se sube
+*.z64
+*.n64
+*.v64
+*.zip
+build.log
+juego/build/
+juego/baserom.*.z64
+juego/build_dev/
+
+# datos personales y secretos: nunca al repositorio
+build_dev.log
+node_modules/
+config/codigo_nube.txt
+config/respaldos/
+config/respaldo_*
+*.bin.nube
+
+# datos de animacion extraidos de la ROM al compilar (copyright de Nintendo)
+/juego/assets/anims/
+/config/respaldo_sm64_save_file.bin

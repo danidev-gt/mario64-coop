@@ -8,7 +8,14 @@ Super Mario 64 original (tu ROM) en Windows, con cooperativo en linea propio y s
 - Servidor: Cloudflare Worker + Durable Objects en `servidor/`, publicado en `https://mario64-coop.mayacodegt.workers.dev`.
 - Controles estilo Project64.
 
-## Como jugar
+## Instalar (rapido)
+1. Descarga el repositorio (boton verde **Code > Download ZIP**) y descomprimelo.
+2. Copia tu ROM `Super Mario 64 (USA).z64` dentro de la carpeta.
+3. Ejecuta **`INSTALAR.bat`**: instala el compilador, compila el juego con tu ROM y crea el acceso directo "Mario 64 Cooperativo" en el escritorio.
+
+El .exe no se publica ya hecho porque contiene material de Nintendo extraido de la ROM; se genera en tu PC.
+
+## Como jugar (paso a paso)
 1. Pon tu ROM `Super Mario 64 (USA).z64` en esta carpeta (SHA1 `9bef1128717f958171a4afac3ed78ee2bb4e86ce`).
 2. (Una vez) `INSTALAR_ENTORNO.bat` instala el compilador (MSYS2).
 3. `COMPILAR.bat` compila el juego con tu ROM.

@@ -20,3 +20,4 @@ config/respaldo_*
 
 # paquete privado con el .exe (contiene material de Nintendo)
 paquete/
+instalacion.log

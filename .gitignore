@@ -16,6 +16,7 @@ config/respaldos/
 config/respaldo_*
 *.bin.nube
 
-# datos de animacion extraidos de la ROM al compilar (copyright de Nintendo)
-/juego/assets/anims/
 /config/respaldo_sm64_save_file.bin
+
+# paquete privado con el .exe (contiene material de Nintendo)
+paquete/
